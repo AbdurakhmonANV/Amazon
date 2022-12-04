@@ -1,0 +1,25 @@
+.ProductCard {
+    width: 350px;
+   height: 420px;
+    background-color: #fff;
+    padding: 20px;
+
+
+}
+
+.product_title{
+    font-size: 21px !important;
+    line-height: 27.3px!important;
+    padding: 0 0 15px 0;
+}
+.product__image {
+    width: 310px;
+    height: 303px;
+
+}
+.product_link{
+    font-size: 13px;
+    text-decoration: none;
+    color: #007185;
+    white-space: nowrap;
+}

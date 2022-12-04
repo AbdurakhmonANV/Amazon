@@ -1,0 +1,84 @@
+.sidebar {
+  padding-top: 50px;
+
+  width: 400px;
+  height: 100vh;
+  background-color: #232f3e;
+  position: fixed;
+  display: flex;
+  overflow: hidden;
+  top: 0;
+  left: -430px;
+  z-index: 10;
+  transition: 0.5s;
+}
+
+.active {
+  left: 0;
+  transition: 0.5s;
+}
+
+.close {
+  position: absolute;
+  font-size: 30px;
+  top: 10px;
+  left: 350px;
+  color: aliceblue;
+  
+}
+.SingIn{
+  position: absolute;
+  top: 10px;
+  left:10px;
+  color: aliceblue;
+padding: 10px;
+}
+.sidebarItem {
+  height: 42px;
+  width: 100%;
+  padding: 15px 10px;
+  background-color: rgb(255, 255, 255);
+  margin: 5px 0;
+}
+
+.sidebarItem:hover {
+  background-color: rgb(202, 208, 238);
+
+}
+
+.sidebarWrapper {
+  margin-top: 30px;
+  width: 100%;
+  min-width: 400px;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+.sidebarOpen {
+  
+  width: 100%;
+  min-width: 400px;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+.CloseWrap{
+  height: 42px;
+  align-items: center;
+  display: flex;
+  background-color: #fff;
+}
+.closeBtn {
+  margin-left: 20px;
+font-size: 25px;
+}
+
+.openingSide{
+  padding-left: 20px;
+line-height: 45px;
+}
+
+.sideOPenHover:hover{
+  background-color: rgb(202, 208, 238);
+
+}
